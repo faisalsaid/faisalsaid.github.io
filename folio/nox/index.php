@@ -22,7 +22,6 @@
         <a href="">CONTACT</a>
         <a href="">ABOUT</a>
         <a href="">BLOG</a>
-        <div class="nav-account float-r">apa</div>
       </nav>
       <div class="hero flex">
         <div class="heroitem">

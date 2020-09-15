@@ -3,8 +3,8 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="viewport" content="user-scalable = yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" content="user-scalable = yes" />
+
 
   <!-- fontawesome -->
   <script src="https://use.fontawesome.com/f3f4d22e3c.js"></script>

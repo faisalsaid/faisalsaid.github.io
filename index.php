@@ -18,7 +18,7 @@
   <div class="latar-satu"></div>
   <div class="latar-dua"></div>
 
-  <div class="container relative flex">
+  <div id="box" class="container relative flex">
     <img class="foto" src="profil.png" alt="" />
     <div class="kiri">
       <h1 class="title">Hi, Im Fais</h1>

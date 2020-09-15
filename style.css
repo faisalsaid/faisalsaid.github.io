@@ -48,7 +48,7 @@
 }
 
 .kiri {
-  padding: 200px 0px;
+  padding: 100px 0px;
   /* border: 1px solid grey; */
 }
 
@@ -95,4 +95,40 @@
 
 .insta:hover {
   color: grey;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: var(--kuning-telur);
+  }
+  .latar-satu,
+  .latar-dua {
+    display: none;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  #box .foto {
+    width: 280px;
+    bottom: 0px;
+    left: -30px;
+    right: 0;
+    /* display: none; */
+  }
+
+  .title {
+    font-size: 4em;
+  }
+
+  .describe {
+    width: 100%;
+  }
+
+  .kiri a.submit {
+    margin-bottom: 40px;
+  }
 }

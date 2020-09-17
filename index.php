@@ -31,7 +31,7 @@
       <div class="contact">
         <p class="email">
           <i class="fa fa-envelope-o" aria-hidden="true"></i>
-          bisadesain@gmail.com
+          bisadesain.ga@gmail.com
         </p>
         <a class="insta" target="_blank" href="https://www.instagram.com/bisadesign_"><i class="fa fa-instagram" aria-hidden="true"></i> bisadesign_</a>
       </div>

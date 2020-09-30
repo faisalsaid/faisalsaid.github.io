@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta name="author" content="Faisal Said">
     <meta name="description" content="UI UX Web Website Design Application Design Portofolio">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://use.fontawesome.com/f3f4d22e3c.js"></script>
-    
+
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Bisa Design</title>
 </head>
+
 <body>
     <header>
         <div class="container">
             <nav class="main-nav row">
                 <div id="main-logo">
-                    <img src="img/bisa-logopink.svg" >
+                    <img src="img/bisa-logopink.svg">
                 </div>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="about.php">About</a></li>
                     <li><a href="#portfolio">Portofolio</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-                
+
             </nav>
             <div class="hero">
                 <div class="row">
@@ -39,7 +41,7 @@
                 </div>
             </div>
         </div>
-    </header> 
+    </header>
 
     <main class="about container">
         <div class="row">
@@ -59,13 +61,13 @@
         <div class="container">
             <h3>Portofolio</h3>
             <div class="porto-box">
-               <div class="porto-img row">
-                    <a href="portfolio/nox/index.html" target="_blank"><img src="img/nox.jpg" alt=""></a>                   
-                    <a href="portfolio/trade/index.html" target="_blank"><img src="img/trade.jpg" alt=""></a>                   
-                    <a href="portfolio/gotrip/index.html" target="_blank"><img src="img/gotrip.jpg" alt=""></a>
+                <div class="porto-img row">
+                    <a href="portfolio/nox/index.php" target="_blank"><img src="img/nox.jpg" alt=""></a>
+                    <a href="portfolio/trade/index.php" target="_blank"><img src="img/trade.jpg" alt=""></a>
+                    <a href="portfolio/gotrip/index.php" target="_blank"><img src="img/gotrip.jpg" alt=""></a>
                     <a href=""><img src="img/t-snakers.jpg" alt=""></a>
-                    
-               </div>
+
+                </div>
             </div>
         </div>
     </section>
@@ -86,7 +88,7 @@
         <div class="patner-item">
             <img src="img/unnamed.jpg" alt="">
         </div>
-        
+
     </section>
 
     <footer>
@@ -94,6 +96,7 @@
             <p>&copy; bisadesign 2020</p>
         </div>
     </footer>
-</div>
+    </div>
 </body>
+
 </html>

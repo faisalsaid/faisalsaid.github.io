@@ -1,0 +1,169 @@
+/* #EA39AF pink color  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main-nav {
+  padding: 20px 0;
+}
+
+.main-nav img {
+  width: 200px;
+}
+
+.main-nav ul li {
+  display: inline-block;
+  padding: 10px 0;
+  color: grey;
+}
+
+#main-logo {
+  flex-grow: 1;
+}
+#main-logo img {
+  filter: grayscale(1);
+}
+
+#main-logo img:hover {
+  filter: none;
+}
+
+.main-nav ul {
+  flex-grow: 1.5;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-nav ul li a {
+  color: grey;
+}
+
+.main-nav ul li a:hover {
+  font-weight: bold;
+  color: #ea39af;
+}
+
+.hero {
+  margin-top: 100px;
+}
+
+.col-2 {
+  width: 50%;
+  /* border: 1px solid grey; */
+}
+
+.hero-tag {
+  font-family: "Baloo Tamma 2", cursive;
+  font-size: 60px;
+  text-transform: capitalize;
+  padding-top: 100px;
+  color: grey;
+  line-height: 60px;
+}
+
+.about {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.about .col-2 img {
+  padding: 0 50px;
+  filter: blur(1);
+}
+
+.about h3 {
+  font-size: 1.5em;
+  color: #ea39af;
+  margin-bottom: 50px;
+  font-family: "Baloo Tamma 2", cursive;
+}
+
+.about p {
+  margin-bottom: 30px;
+  line-height: 30px;
+  color: grey;
+  padding-right: 50px;
+}
+
+.about a {
+  background-color: #ea39af;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 50px;
+  box-shadow: 0 5px 15px rgba(234, 57, 175, 0.5);
+  border: none;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.about button:active,
+.about button:visited {
+  border: none;
+}
+
+.porto {
+  margin-bottom: 100px;
+}
+
+.porto h3 {
+  font-family: "Baloo Tamma 2", cursive;
+  text-align: center;
+  color: #ea39af;
+  font-weight: bold;
+  font-size: 1.6em;
+  margin-bottom: 20px;
+}
+
+.porto-box .porto-img {
+  flex-wrap: wrap;
+}
+
+.porto-img a {
+  display: inline-block;
+  width: 25%;
+}
+
+.patner {
+  align-items: center;
+}
+
+.patner-item {
+  filter: grayscale(1);
+  margin: 0px 5px;
+}
+
+.patner-item:hover {
+  filter: none;
+}
+
+footer {
+  color: grey;
+  text-align: center;
+}
+
+footer .container {
+  border-top: 0.5px solid grey;
+}
+
+footer p {
+  padding: 50px;
+}

@@ -1,0 +1,522 @@
+/* GOTRIP STYLE
+AUTHORL: bisadesign.ga
+*/
+
+/* hind font and robboto */
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* ballo font */
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500;600;700;800&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,900;1,300;1,400;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* GLOBAL */
+
+:root {
+  --gt--blue: #4ae6fd;
+  --gt--yellow: #fefe48;
+  --gt--ballo: "Baloo Tammudu 2", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: #666;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.btn {
+  padding: 10px 22px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  background-color: gray;
+  border-radius: 50px;
+  font-size: 1.2em;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #888;
+}
+
+.btn-premiere {
+  background-color: var(--gt--blue);
+}
+
+.btn-premiere:hover {
+  background-color: darkslategrey;
+}
+
+.btn-second {
+  background-color: var(--gt--yellow);
+  color: #888;
+}
+
+.btn-second:hover {
+  background-color: rgb(204, 204, 1);
+  color: white;
+}
+
+/* HEADER */
+
+/* ====== NAVBAR =====*/
+
+header {
+  background-image: url(../img/swiss-mountain.jpg);
+  background-size: cover;
+}
+
+#mainNav {
+  padding: 20px 0px;
+  justify-content: space-between;
+}
+
+#logo {
+  cursor: pointer;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+#logo span {
+  font-size: inherit;
+  font-weight: 600;
+  color: var(--gt--blue);
+}
+
+#mainNav li {
+  display: inline-block;
+}
+
+#mainNav a {
+  text-decoration: none;
+  margin-right: 15px;
+  color: white;
+}
+
+#mainNav button {
+  margin-left: 30px;
+}
+
+/* ====== HERO ====== */
+
+#hero {
+  padding: 100px;
+}
+
+#title {
+  font-family: "Hind", sans-serif;
+  font-size: 15em;
+  color: whitesmoke;
+  text-align: center;
+  margin-bottom: -50px;
+}
+
+#hero p {
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 40px;
+}
+
+#hero button {
+  margin: 0 auto;
+  display: block;
+}
+
+.awan {
+  /* width: 100%; */
+  height: 300px;
+  overflow: hidden;
+}
+
+.awan img {
+  width: 100%;
+}
+/* MAIN */
+
+/* ======== promo ======== */
+
+#promo {
+  position: relative;
+  margin-bottom: 140px;
+}
+.promoItems {
+  width: 50%;
+  position: relative;
+}
+
+.promoItems:first-child {
+  padding-right: 40px;
+}
+
+#promo h2 {
+  text-transform: uppercase;
+  font-size: 3em;
+  font-family: "Robboto", sans-serif;
+  font-weight: 700;
+  margin-bottom: 25px;
+  line-height: 1em;
+}
+
+#promo p {
+  line-height: 1.8em;
+  margin-bottom: 10px;
+}
+
+#promo a {
+  color: var(--gt--blue);
+  font-size: 1.3em;
+  text-decoration: none;
+}
+
+.promoItems img:first-child {
+  width: 400px;
+  z-index: 1;
+  position: absolute;
+}
+
+.promoItems:last-child:hover > img:first-child {
+  transform: translate(-80px, -240px);
+  transition: 1s;
+}
+
+.promoItems:last-child:hover > img:last-child {
+  transform: translate(-100px, 120px);
+  transition: 1s;
+}
+
+.promoItems img:last-child {
+  width: 400px;
+  position: absolute;
+  left: 80px;
+  top: 80px;
+  z-index: 1;
+}
+
+#promo > img {
+  position: absolute;
+  right: 0px;
+  top: -60px;
+  width: 450px;
+}
+
+#promo > img:hover {
+  z-index: 2;
+  transform: translate(-50px, 30px);
+  transition: 1s;
+}
+
+#promo h2:hover + .promoItems p {
+  display: none;
+}
+
+/* ==== POPULAR ===  */
+
+#popular {
+  padding-bottom: 60px;
+}
+
+#popular h2 {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+  line-height: 1.2em;
+  font-family: "Robboto", sans-serif;
+  font-weight: 700;
+}
+
+#popular .desc {
+  width: 80%;
+  line-height: 1.4em;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.popularItems {
+  flex: 1;
+  padding: 0px 10px;
+}
+.popularItems .imgbox {
+  width: 100%x;
+  height: 200px;
+  overflow: hidden;
+  background-color: whitesmoke;
+  margin-bottom: 20px;
+}
+
+.popularItems img {
+  width: 100%;
+}
+
+.popularItems h3 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.popularItems p {
+  line-height: 1.6em;
+  margin-bottom: 20px;
+}
+
+/* ==== SUBSCRIBE  === */
+
+#subscribe {
+  background-color: var(--gt--yellow);
+  padding: 40px 80px;
+}
+
+#subscribe h3 {
+  font-size: 2em;
+  margin-bottom: 8px;
+}
+
+#subscribe input {
+  border: none;
+  padding: 10px 20px;
+  width: 70%;
+  margin-right: 10px;
+  border-radius: 50px;
+}
+
+#subscribe input:focus {
+  border: none;
+}
+
+#subscribe input:active {
+  border: none;
+}
+#subscribe button {
+  padding: 10px 20px;
+  width: 28%;
+  background-color: var(--gt--blue);
+  border-radius: 20px;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+#subscribe button:hover {
+  cursor: pointer;
+  background-color: darkslategrey;
+}
+
+/* === TESTIMONY */
+
+#testimony {
+  background-color: var(--gt--blue);
+  background-image: url(../img/swiss-national-park.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 100px 0px;
+}
+
+#testimony h3 {
+  color: white;
+  font-size: 4em;
+  margin-left: 100px;
+  margin-right: 20px;
+  font-family: "Hind", sans-serif;
+  line-height: 1em;
+}
+.testyRight {
+  padding: 40px;
+}
+.glass {
+  /* filter: blur(10px); */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.boxTesty {
+  background-color: white;
+  padding: 10px 20px;
+}
+
+.testyCards {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.userImg {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid white;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.userImg img {
+  height: 100%;
+}
+
+.testyCards .name {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.testyCards .desc {
+  font-size: 0.8em;
+  line-height: 1.5em;
+  margin-bottom: 10px;
+}
+
+/* FOOTER */
+
+footer {
+  background-image: url(../img/swiss-mountain.jpg);
+  background-size: cover;
+  font-size: 0.8em;
+  padding-bottom: 60px;
+}
+
+.cloudFootWrap {
+  transform: rotate(180deg);
+  height: 300px;
+  overflow: hidden;
+}
+
+.cloudFootWrap img {
+  width: 100%;
+}
+
+.footInfoWrap {
+  padding: 30px;
+}
+
+.footItems {
+  margin: 0px 10px;
+}
+.footItems h3 {
+  /* font-size: 0.8em; */
+  color: white;
+  margin-bottom: 10px;
+}
+
+.footItems p {
+  font-size: 0.8em;
+  color: white;
+}
+
+.footItems li {
+  list-style: none;
+  color: white;
+  font-size: 0.8em;
+  padding: 5px;
+}
+
+/* RESPONSIVE MOBILE */
+
+@media only screen and (max-width: 600px) {
+  /* ----------------- */
+
+  /* header {
+    position: relative;
+  } */
+
+  #mainNav ul {
+    display: none;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0px 10px;
+  }
+
+  #hero {
+    padding: 30px 0px 0px 0px;
+  }
+
+  #title {
+    font-size: 10em;
+  }
+
+  .awan {
+    /* position: absolute; */
+    height: 150px;
+    bottom: 0px;
+  }
+
+  /*  PROMO */
+
+  #promo .container.row {
+    display: block;
+  }
+
+  .promoItems {
+    width: 100%;
+    padding: 30px 0px;
+  }
+
+  #promo .promoItems img {
+    position: static;
+    transform: translate(0, 0);
+    width: 100%;
+  }
+
+  #promo .promoItems:hover img {
+    transform: translate(0, 0);
+    transform: none;
+  }
+
+  #promo img {
+    position: static;
+  }
+
+  #promo img:hover {
+    position: static;
+    transform: translate(0, 0);
+  }
+
+  /* POPULAR */
+
+  .popularBox {
+    display: block;
+  }
+
+  .popularItems {
+    padding-bottom: 30px;
+  }
+
+  /* SUBSCRIBE */
+
+  #subscribe input,
+  #subscribe button {
+    width: 100%;
+  }
+
+  /* TESTY  */
+
+  #testimony,
+  .boxTesty {
+    display: block;
+  }
+  .testyCards {
+    padding-bottom: 30px;
+  }
+
+  /* FOOTER  */
+
+  .footInfoWrap {
+    display: block;
+    padding: 30px 0px;
+  }
+
+  /* ---------------------- */
+}

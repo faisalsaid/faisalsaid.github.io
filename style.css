@@ -19,6 +19,7 @@ img {
 
 .container {
   width: 80%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -79,6 +80,8 @@ img {
   color: grey;
   line-height: 60px;
 }
+
+/* ABOUT */
 
 .about {
   margin-top: 150px;
@@ -142,6 +145,12 @@ img {
   width: 25%;
 }
 
+.porto-img img {
+  line-height: 0;
+  border: 1px solid grey;
+  /* margin-bottom: 0px; */
+}
+
 .patner {
   align-items: center;
 }
@@ -166,4 +175,42 @@ footer .container {
 
 footer p {
   padding: 50px;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 600px) {
+  .main-nav ul {
+    display: none;
+  }
+
+  .row {
+    display: block;
+  }
+
+  .col-2 img {
+    position: static;
+    width: 100%;
+  }
+
+  .hero {
+    margin-top: 0;
+    padding: 30px 0px;
+  }
+
+  .hero-tag {
+    padding-top: 0px;
+    font-size: 3em;
+    line-height: 1em;
+  }
+
+  .col-2 {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .porto-img a {
+    display: inline-block;
+    width: 100%;
+  }
 }

@@ -665,6 +665,10 @@ footer .social-media ul li a {
     right: 0;
   }
 
+  .portfolio .title {
+    font-size: 1.2rem;
+  }
+
   /* boxmail */
   #boxmail .container {
     display: block;

@@ -421,6 +421,12 @@ header {
   display: flex;
   justify-content: flex-end;
 }
+
+.portfolio .container a {
+  display: inline-block;
+  margin-left: 20px;
+  color: grey;
+}
 /* end portfolio */
 
 /* emailbox */

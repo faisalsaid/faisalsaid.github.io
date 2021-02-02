@@ -147,7 +147,7 @@
             <h3>FAISAL SAID</h3>
             <h4>UI/UX DESIGNER & Front End Programmer</h4>
             <p>
-              Freelancer UI Designer and Front End Developer for 2 years,
+              Freelancer UI Designer and Front End Developer for 3 years,
               having previously been in the Graphic Design with more than 8
               years of experience.
             </p>
@@ -169,13 +169,15 @@
         <p class="title container">NOX-Supplement</p>
         <img src="asset/img/nox.jpg" alt="" />
         <div class="container">
+          <a href="portfolio/nox/index.php" target="_blank">Live <i class="bx bxs-right-arrow-alt"></i></a>
           <a href="">Study Case <i class="bx bxs-right-arrow-alt"></i></a>
         </div>
       </div>
       <div class="portfolio">
-        <p class="title container">Lean-envy</p>
-        <img src="asset/img/lean.jpg" alt="" />
+        <p class="title container">Ekadanta Studio</p>
+        <img src="asset/img/ekadanta.jpg" alt="" />
         <div class="container">
+          <a href="https://ekadantastudios.herokuapp.com/" target="_blank">Live <i class="bx bxs-right-arrow-alt"></i></a>
           <a href="">Study Case <i class="bx bxs-right-arrow-alt"></i></a>
         </div>
       </div>
@@ -183,6 +185,7 @@
         <p class="title container">Trademarking</p>
         <img src="asset/img/trade.jpg" alt="" />
         <div class="container">
+          <a href="portfolio/trade/index.php" target="_blank">Live <i class="bx bxs-right-arrow-alt"></i></a>
           <a href="">Study Case <i class="bx bxs-right-arrow-alt"></i></a>
         </div>
       </div>

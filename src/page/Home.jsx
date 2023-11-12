@@ -75,8 +75,8 @@ export default function Home() {
             <div>
               <h2 className="text-red-500">🎨🛠️ **Tools & Technologies:** </h2>
               <p>
-                Transforming designs into interactive and responsive websites is my forte. I specialize in HTML, CSS, and JavaScript, ensuring a seamless and visually appealing
-                user interface.
+                Proficient in using modern front-end tools and frameworks such as React.js, Redux, node.js, express, tailwind, axios and graphQL to request API or database. I keep
+                up with industry trends to deliver cutting-edge solutions.
               </p>
             </div>
           </div>

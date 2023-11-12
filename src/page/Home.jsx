@@ -107,6 +107,10 @@ export default function Home() {
               <h2 className="text-orange-500">{`{ project : "Kasir Kuliner" }`} </h2>
               <p>Point of sale application that targets medium to small businesses, helps calculate sales revenue and analyze product sales</p>
               <p className="text-sky-200">
+                <a className="underline" href="https://kasirkuliner.vercel.app/" target="_blank">
+                  Kasir kuliner
+                </a>
+                <br />
                 <a className="underline" href="https://github.com/faisalsaid/food-pos-client" target="_blank">
                   github kasir kuliner
                 </a>
